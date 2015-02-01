@@ -3,6 +3,6 @@ This script uninstalls .net4 and installs .net 4.5 in a Windows 64 bit enviromen
 
 %windir%\Microsoft.NET\Framework64\v4.0.30319\SetupCache\Extended\setup.exe /uninstall /x86 /x64 /ia64 /parameterfolder Extended /passive /norestart
 
-SLEEP 240
+SLEEP 300
 
 %windir%\Microsoft.NET\Framework64\v4.0.30319\SetupCache\setup.exe /repair /x86 /x64 /ia64 /q /norestart
